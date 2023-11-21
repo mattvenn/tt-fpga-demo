@@ -51,6 +51,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: bitstream
-          path: 
-            - 'src/wokwi.bin'
-            - 'src/tt_um_wokwi_382008700445237249.v'
+          path: |
+            'src/wokwi.bin'
+            'src/tt_um_wokwi_382008700445237249.v'
